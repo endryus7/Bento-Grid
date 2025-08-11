@@ -1,0 +1,201 @@
+/*
+## Colors
+
+- Purple 100: hsl(254, 88%, 90%)
+- Purple 500: hsl(256, 67%, 59%)
+
+- Yellow 100: hsl(31, 66%, 93%)
+- Yellow 500: hsl(39, 100%, 71%)
+
+- White: hsl(0, 0%, 100%)
+- Black: hsl(0, 0%, 7%)
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+}
+
+main {
+    margin: auto;
+    margin: 20px;
+}
+
+/* Aside1 */
+.aside1 {
+    background-color: hsl(256, 67%, 59%);
+    color: white;
+    padding: 1.5rem;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.aside1 span {
+    color: hsl(39, 100%, 71%);
+    font-size: 30px;
+}
+
+.aside1 h1 {
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.aside1 img {
+    object-fit: cover;
+    width: 170px;
+}
+
+.aside1 p {
+    color: rgba(255, 255, 255, 0.678);
+}
+
+/* Aside2 */
+.aside2 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.aside2 img {
+    object-fit: cover;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.aside2 p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Aside3 */
+.aside3 {
+    background-color: hsl(39, 100%, 71%);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.aside3 p {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.aside3 img {
+    width: 200px;
+}
+
+/* Aside4 */
+.aside4 {
+    background-color: hsl(254, 88%, 90%);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.aside4 h1 {
+    padding-bottom: 20px;
+}
+
+.aside4 img {
+    object-fit: cover;
+    width: 290px;
+}
+
+.aside4 p {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+/* Aside5 */
+.aside5 {
+    background-color: hsl(256, 67%, 59%);
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.aside5 img {
+    object-fit: cover;
+    width: 220px;
+}
+
+.aside5 h1 {
+    color: white;
+    padding-top: 24px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* Aside6 */
+.aside6 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.aside6 h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.aside6 p {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.aside6 img {
+    object-fit: cover;
+    width: 150px;
+}
+
+/* Aside7 */
+.aside7 {
+    background-color: hsl(31, 66%, 93%);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.aside7 h1 {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.aside7 span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.aside7 img {
+    object-fit: cover;
+    width: 180px;
+}
+
+/* Aside8 */
+.aside8 {
+    background-color: hsl(39, 100%, 71%);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.aside8 h1 {
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.aside8 img {
+    object-fit: cover;
+    width: 200px;
+}
