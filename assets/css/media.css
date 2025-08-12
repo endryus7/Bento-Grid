@@ -1,4 +1,9 @@
 @media only screen and (min-width: 768px) {
+
+    body, html {
+        overflow-x: hidden;
+    }
+
     main {
         display: grid;
         place-content: center;
@@ -10,20 +15,37 @@
         / 1fr 1fr 1fr 1fr;
         
         max-width: 1200px;
-        margin: auto;
-        padding: 16px;
+        margin: 16px auto;
     }
 
     .aside1 {
         grid-area: aside1;
     }
 
+    .aside1 h1{
+        font-size: 32px;
+    }
+
+    .aside1 span{
+        font-size: 34px;
+    }
+
     .aside2 {
         grid-area: aside2;
     }
 
+    .aside2 p {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
     .aside3 {
         grid-area: aside3;
+    }
+
+    .aside3 p {
+        font-size: 30px;
+        font-weight: 500;
     }
 
     .aside4 {
@@ -32,17 +54,52 @@
 
     .aside5 {
         grid-area: aside5;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside5 img {
+        object-fit: cover;
+    }
+
+    .aside5 h1 {
+        font-size: 28px;
     }
 
     .aside6 {
         grid-area: aside6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside6 h1 {
+        font-size: 40px;
     }
 
     .aside7 {
         grid-area: aside7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .aside7 h1 {
+        font-size: 35px;
+        font-weight: 500;
     }
 
     .aside8 {
         grid-area: aside8;
+    }
+
+    .aside8 h1 {
+        font-size: 35px;
+        font-weight: 500;
     }
 }
