@@ -1,0 +1,48 @@
+@media only screen and (min-width: 768px) {
+    main {
+        display: grid;
+        place-content: center;
+        gap: 20px;
+        grid-template:
+        "aside7 aside1 aside1 aside4" auto
+        "aside7 aside2 aside3 aside4" auto
+        "aside8 aside6 aside5 aside5" auto
+        / 1fr 1fr 1fr 1fr;
+        
+        max-width: 1200px;
+        margin: auto;
+        padding: 16px;
+    }
+
+    .aside1 {
+        grid-area: aside1;
+    }
+
+    .aside2 {
+        grid-area: aside2;
+    }
+
+    .aside3 {
+        grid-area: aside3;
+    }
+
+    .aside4 {
+        grid-area: aside4;
+    }
+
+    .aside5 {
+        grid-area: aside5;
+    }
+
+    .aside6 {
+        grid-area: aside6;
+    }
+
+    .aside7 {
+        grid-area: aside7;
+    }
+
+    .aside8 {
+        grid-area: aside8;
+    }
+}
