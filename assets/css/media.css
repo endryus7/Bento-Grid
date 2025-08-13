@@ -1,6 +1,5 @@
 @media only screen and (min-width: 768px) {
-
-    body, html {
+    body {
         overflow-x: hidden;
     }
 
@@ -14,8 +13,8 @@
         "aside8 aside6 aside5 aside5" auto
         / 1fr 1fr 1fr 1fr;
         
-        max-width: 1200px;
-        margin: 16px auto;
+        max-width: 1100px;
+        padding: 20px;
     }
 
     .aside1 {
@@ -23,11 +22,11 @@
     }
 
     .aside1 h1{
-        font-size: 32px;
+        font-size: 20px;
     }
 
     .aside1 span{
-        font-size: 34px;
+        font-size: 22px;
     }
 
     .aside2 {
@@ -35,7 +34,7 @@
     }
 
     .aside2 p {
-        font-size: 30px;
+        font-size: 18px;
         font-weight: 500;
     }
 
@@ -44,7 +43,7 @@
     }
 
     .aside3 p {
-        font-size: 30px;
+        font-size: 18px;
         font-weight: 500;
     }
 
@@ -65,7 +64,7 @@
     }
 
     .aside5 h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .aside6 {
@@ -77,7 +76,7 @@
     }
 
     .aside6 h1 {
-        font-size: 40px;
+        font-size: 25px;
     }
 
     .aside7 {
@@ -90,7 +89,7 @@
     }
 
     .aside7 h1 {
-        font-size: 35px;
+        font-size: 22px;
         font-weight: 500;
     }
 
@@ -99,7 +98,7 @@
     }
 
     .aside8 h1 {
-        font-size: 35px;
+        font-size: 22px;
         font-weight: 500;
     }
 }
